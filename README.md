@@ -30,4 +30,30 @@ No server required – it’s 100% static.
 
 | Homepage                      | Courses Page                        | Contact Page                        |
 | ----------------------------- | ----------------------------------- | ----------------------------------- |
-| <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/e9471c47-b3ef-47bc-8005-2b88599d6d9b" />     | ![Courses](screenshots/courses.png) | ![Contact](screenshots/contact.png) |
+| <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/e9471c47-b3ef-47bc-8005-2b88599d6d9b" />     | <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/03f2d5bb-350a-495a-ad1c-f735740b448d" />
+ | <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/1e6347cb-5dfd-426d-9fb6-12a1080ccf5e" />|
+
+ ## 🎨 Color Palette
+- Primary: Orange-Yellow Gradient (#FFA500 → #FFD700)
+- Dark: Black (#000000)
+- Light: White (#FFFFFF)
+
+## 📂 Project Structure
+📦 culinary-school-website
+ ┣ 📂 assets
+ ┃ ┣ 📜 styles.css
+ ┃ ┣ 📜 animations.css
+ ┃ ┣ 📜 animations.js
+ ┣ 📜 index.html
+ ┣ 📜 about.html
+ ┣ 📜 courses.html
+ ┣ 📜 contact.html
+ ┣ 📜 README.md
+
+## 👨‍💻 Author
+
+Developed by **Vincent James Salvino**   
+💼 Web Development • Data & Automation • Creative Media  
+📧 salvino222vincent@gmail.com
+🌐 
+
