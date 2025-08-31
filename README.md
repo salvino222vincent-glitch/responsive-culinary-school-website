@@ -30,8 +30,8 @@ No server required – it’s 100% static.
 
 | Homepage                      | Courses Page                        | Contact Page                        |
 | ----------------------------- | ----------------------------------- | ----------------------------------- |
-| <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/e9471c47-b3ef-47bc-8005-2b88599d6d9b" />     | <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/03f2d5bb-350a-495a-ad1c-f735740b448d" />
- | <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/1e6347cb-5dfd-426d-9fb6-12a1080ccf5e" />|
+| <img width="310" height="310" alt="image" src="https://github.com/user-attachments/assets/e9471c47-b3ef-47bc-8005-2b88599d6d9b" />     | <img width="310" height="310" alt="image" src="https://github.com/user-attachments/assets/03f2d5bb-350a-495a-ad1c-f735740b448d" />
+ | <img width="310" height="310" alt="image" src="https://github.com/user-attachments/assets/1e6347cb-5dfd-426d-9fb6-12a1080ccf5e" />|
 
  ## 🎨 Color Palette
 - Primary: Orange-Yellow Gradient (#FFA500 → #FFD700)
