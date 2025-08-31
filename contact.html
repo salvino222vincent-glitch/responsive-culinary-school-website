@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Culinary School — Contact & Apply</title>
+  <meta name="description" content="Contact the Culinary School or start your application.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%B4%3C/text%3E%3C/svg%3E">
+
+
+    <!-- Godlike Animations: assets + libs -->
+    <link rel="stylesheet" href="assets/animations.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Culinary School Home">
+      <span class="logo">🍴</span> <span class="brand-text">Culinary School</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">
+      <span class="sr-only">Toggle navigation</span>
+      ☰
+    </button>
+    <nav id="siteNav" class="nav">
+      <a href="index.html" style="color: white;" onmouseover="this.style.color='#FF8C00'" onmouseout="this.style.color='white'">Home</a>
+      <a href="about.html" style="color: white;" onmouseover="this.style.color='#FF8C00'" onmouseout="this.style.color='white'">About</a>
+      <a href="courses.html" style="color: white;" onmouseover="this.style.color='#FF8C00'" onmouseout="this.style.color='white'">Courses</a>
+      <a href="contact.html" style="color: white;" onmouseover="this.style.color='#FF8C00'" onmouseout="this.style.color='white'">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container page">
+  <h1>Contact &amp; Apply</h1>
+  <p>Have questions or ready to apply? Send us a message and our admissions team will reach out.</p>
+  <form class="contact-form" id="contactForm" novalidate>
+    <div class="form-row">
+      <label for="name">Full Name</label>
+      <input id="name" name="name" type="text" placeholder="Your name" required />
+      <small class="error" data-for="name"></small>
+    </div>
+    <div class="form-row">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required />
+      <small class="error" data-for="email"></small>
+    </div>
+    <div class="form-row">
+      <label for="program">Program</label>
+      <select id="program" name="program" required>
+        <option value="">Select a program</option>
+        <option>Professional Cooking</option>
+        <option>Baking & Pastry</option>
+        <option>Bartending</option>
+      </select>
+      <small class="error" data-for="program"></small>
+    </div>
+    <div class="form-row">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Tell us a bit about your goals…" required></textarea>
+      <small class="error" data-for="message"></small>
+    </div>
+    <button class="btn primary" type="submit">Send</button>
+    <p id="formStatus" role="status" aria-live="polite"></p>
+  </form>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Culinary School</h4>
+      <p>Hands-on programs in cooking, baking, and hospitality.</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li>📍 123 Food Ave, Metro City</li>
+        <li>📞 (02) 123-4567</li>
+        <li>✉️ hello@culinaryschool.edu</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Follow</h4>
+      <ul class="social">
+        <li><a href="#" aria-label="Facebook">Facebook</a></li>
+        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+        <li><a href="#" aria-label="YouTube">YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">© 2025 Culinary School • Mobile‑first • SEO‑friendly</div>
+</footer>
+<script src="script.js"></script>
+
+
+    <!-- Godlike Animations: libs + orchestrator -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="assets/animations.js"></script>
+    
+</body>
+</html>
