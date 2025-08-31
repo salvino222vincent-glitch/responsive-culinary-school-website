@@ -30,4 +30,4 @@ No server required – it’s 100% static.
 
 | Homepage                      | Courses Page                        | Contact Page                        |
 | ----------------------------- | ----------------------------------- | ----------------------------------- |
-| <img width="200" height="250" alt="image" src="https://github.com/user-attachments/assets/e9471c47-b3ef-47bc-8005-2b88599d6d9b" />     | ![Courses](screenshots/courses.png) | ![Contact](screenshots/contact.png) |
+| <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/e9471c47-b3ef-47bc-8005-2b88599d6d9b" />     | ![Courses](screenshots/courses.png) | ![Contact](screenshots/contact.png) |
